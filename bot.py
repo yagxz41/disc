@@ -31,4 +31,4 @@ async def joined(ctx, member: discord.Member):
     await ctx.send(f'{member.name} joined {discord.utils.format_dt(member.joined_at)}')
     # Örneğin: "Ahmet joined 5 Aralık 2024"
   
-bot.run("token")
+bot.run("*****")
